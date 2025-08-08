@@ -27,10 +27,10 @@ After loading a marshaled \code{lrn("classif.fastai")} into R again, you then ne
 
 \itemize{
 \item \code{n_epoch}:
-Needs to be set for \code{\link[fastai:fit]{fastai::fit()}} to work.
+Needs to be set for \code{\link[fastai:reexports]{fastai::fit()}} to work.
 If no value is given, it is set to 5.
 \item \code{eval_metric}:
-Needs to be set for \code{\link[fastai:predict]{fastai::predict()}} to work.
+Needs to be set for \code{\link[fastai:reexports]{fastai::predict()}} to work.
 If no value is given, it is set to \code{fastai::accuracy()}.
 }
 }
@@ -152,7 +152,6 @@ Whether the learner has been marshaled.}
 <li><span class="pkg-link" data-pkg="mlr3" data-topic="Learner" data-id="reset"><a href='../../mlr3/html/Learner.html#method-Learner-reset'><code>mlr3::Learner$reset()</code></a></span></li>
 <li><span class="pkg-link" data-pkg="mlr3" data-topic="Learner" data-id="selected_features"><a href='../../mlr3/html/Learner.html#method-Learner-selected_features'><code>mlr3::Learner$selected_features()</code></a></span></li>
 <li><span class="pkg-link" data-pkg="mlr3" data-topic="Learner" data-id="train"><a href='../../mlr3/html/Learner.html#method-Learner-train'><code>mlr3::Learner$train()</code></a></span></li>
-<li><span class="pkg-link" data-pkg="mlr3" data-topic="LearnerClassif" data-id="predict_newdata_fast"><a href='../../mlr3/html/LearnerClassif.html#method-LearnerClassif-predict_newdata_fast'><code>mlr3::LearnerClassif$predict_newdata_fast()</code></a></span></li>
 </ul>
 </details>
 }}
