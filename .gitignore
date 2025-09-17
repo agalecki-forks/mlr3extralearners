@@ -2,7 +2,8 @@
 
 # Created by https://www.gitignore.io/api/visualstudiocode,macos,r,windows
 # Edit at https://www.gitignore.io/?templates=visualstudiocode,macos,r,windows
-
+inst/*
+R/learner_cmprsk_cmprsk_crr*
 ### macOS ###
 # General
 .DS_Store
